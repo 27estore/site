@@ -22,8 +22,8 @@
 # 2) "Adapt the website to Windows": https://github.com/27estore/site/issues/2
 !/setup/src/Magento/Setup/Module/Di/Code/Reader/ClassesScanner.php
 /update/
-/vendor/aws/aws-crt-php
-/vendor/magento/framework/Test
+# 2025-04-03 https://gemini.google.com/u/1/app/de95853eeeb45648
+/vendor/
 # 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
 # 1) "How to fix «Unable to apply data patch Magento\Theme\Setup\Patch\Data\RegisterThemes for module Magento_Theme»
 # in Magento ≥ 2.3.5 in Windows?" https://mage2.pro/t/6177
@@ -61,12 +61,8 @@
 !/vendor/magento/module-sales/Model/Order/Email/Sender/CreditmemoSender.php
 !/vendor/magento/module-sales/Model/Order/Email/Sender/InvoiceSender.php
 !/vendor/magento/module-sales/Model/Order/Email/Sender/ShipmentSender.php
-/vendor/magento/magento2-base
-/vendor/magento/magento2-functional-testing-framework
-/vendor/tubalmartin
 # 2023-07-22 Dmitrii Fediuk https://upwork.com/fl/mage2pro
 # Today I noticed that `git add . && git commit -a -m refactoring && git push`
 # started to commit subfolders which are git repositories (for an unknown reason).
+# 2025-04-03 https://gemini.google.com/u/1/app/de95853eeeb45648
 /_my
-/vendor/27estore
-/vendor/mage2pro
