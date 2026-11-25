@@ -130,7 +130,7 @@ class Image implements LocalInterface
             case CatalogMediaConfig::IMAGE_OPTIMIZATION_PARAMETERS:
                 return $this->getUrlWithTransformationParameters();
             case CatalogMediaConfig::HASH:
-				# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+				# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 				# 1) "Adapt the website to Windows": https://github.com/27estore/site/issues/2
 				# 2) "How to adapt `Magento\Catalog\Model\View\Asset\Image::getUrl()` to Windows in Magento ≥ 2.4.2?":
 				# https://mage2.pro/t/6411
@@ -276,7 +276,7 @@ class Image implements LocalInterface
      */
     private function getImageInfo()
     {
-		# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+		# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 		# 1) "Adapt the website to Windows": https://github.com/27estore/site/issues/2
 		# 2) "How to adapt `Magento\Catalog\Model\View\Asset\Image::getImageInfo()` to Windows in Magento ≥ 2.3.0?":
 		# https://mage2.pro/t/6412

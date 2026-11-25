@@ -58,7 +58,7 @@ if (file_exists($configCacheFile) && is_readable($configCacheFile)) {
 
         // Serve file if it's materialized
         if ($mediaDirectory) {
-			# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+			# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 			# 1.1) "How to adapt `pub/get.php` to Windows in Magento ≥ 2.4.2?": https://mage2.pro/t/6415
 			# 1.2) The original code: https://github.com/magento/magento2/blob/2.4.6-p4/pub/get.php#L61
 			# 2) "Adapt the website to Windows": https://github.com/27estore/site/issues/2

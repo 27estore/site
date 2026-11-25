@@ -66,7 +66,7 @@ class Refresh extends \Magento\Framework\App\Action\Action
         }
 
         if ($isAjax) {
-			# 2024-09-29 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+			# 2024-09-29 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 			# 1) «Undefined array key "current_url"
 			# in app/code/WeltPixel/AjaxInfiniteScroll/Controller/Canonical/Refresh.php on line 63»:
 			# https://github.com/27estore/site/issues/62

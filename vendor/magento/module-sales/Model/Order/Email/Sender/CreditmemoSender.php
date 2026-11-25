@@ -118,7 +118,7 @@ class CreditmemoSender extends Sender
 
         if (!$this->globalConfig->getValue('sales_email/general/async_sending') || $forceSyncMode) {
             $order = $creditmemo->getOrder();
-			# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+			# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 			# 1) "«Environment emulation nesting is not allowed» on sending invoice / shipment / creditmemo emails":
 			# https://github.com/27estore/site/issues/3
 			# 2) "How did I fix «Environment emulation nesting is not allowed»
@@ -134,7 +134,7 @@ class CreditmemoSender extends Sender
                 'creditmemo_id' => $creditmemo->getId(),
                 'comment' => $creditmemo->getCustomerNoteNotify() ? $creditmemo->getCustomerNote() : '',
                 'billing' => $order->getBillingAddress(),
-				# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+				# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 				# 1) "«Environment emulation nesting is not allowed» on sending invoice / shipment / creditmemo emails":
 				# https://github.com/27estore/site/issues/3
 				# 2) "How did I fix «Environment emulation nesting is not allowed»

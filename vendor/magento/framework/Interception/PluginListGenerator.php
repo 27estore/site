@@ -153,7 +153,7 @@ class PluginListGenerator implements ConfigWriterInterface, ConfigLoaderInterfac
                 if (false === in_array($scope, $this->scopePriorityScheme, true)) {
                     $this->scopePriorityScheme[] = $scope;
                 }
-				# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+				# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 				# 1) "How to fix «file_put_contents(generated/metadata/primary|global|plugin-list.php):
 				# failed to open stream: No such file or directory
 				# in lib\internal\Magento\Framework\Interception\PluginListGenerator.php on line 414»

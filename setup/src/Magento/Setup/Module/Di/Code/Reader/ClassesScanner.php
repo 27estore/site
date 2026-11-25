@@ -67,7 +67,7 @@ class ClassesScanner implements ClassesScannerInterface
     public function getList($path)
     {
         // phpcs:ignore
-		# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+		# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 		# 1) "How to fix intereceptors generation on `bin/magento setup:di:compile` in Magento ≥ 2.2 in Windows?":
 		# https://mage2.pro/t/4702
 		# 2) "Adapt the website to Windows": https://github.com/27estore/site/issues/2

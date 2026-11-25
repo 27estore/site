@@ -1,4 +1,4 @@
-# 2024-07-11 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2024-07-11 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # http://stackoverflow.com/questions/987142
 # http://stackoverflow.com/questions/9162919
 # http://stackoverflow.com/questions/8024924#comment15884195_8025106
@@ -12,11 +12,11 @@
 !/app/design/frontend/Pearl/**/*
 !/app/etc/config.php
 /dev
-# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "How to adapt `pub/get.php` to Windows in Magento ≥ 2.4.2?": https://mage2.pro/t/6415
 # 2) "Adapt the website to Windows": https://github.com/27estore/site/issues/2
 !/pub/get.php
-# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "How to fix intereceptors generation on `bin/magento setup:di:compile` in Magento ≥ 2.2 in Windows?":
 # https://mage2.pro/t/4702
 # 2) "Adapt the website to Windows": https://github.com/27estore/site/issues/2
@@ -24,7 +24,7 @@
 /update/
 # 2025-04-03 https://gemini.google.com/u/1/app/de95853eeeb45648
 /vendor/
-# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "How to fix «Unable to apply data patch Magento\Theme\Setup\Patch\Data\RegisterThemes for module Magento_Theme»
 # in Magento ≥ 2.3.5 in Windows?" https://mage2.pro/t/6177
 # 2) "Adapt the website to Windows": https://github.com/27estore/site/issues/2
@@ -34,26 +34,26 @@
 # 2) "How did I fix «imagecolorsforindex(): Argument #2 ($color) is out of range» for GIF images in Magento < 2.4.7?"
 # https://mage2.pro/t/6487
 !/vendor/magento/framework/Image/Adapter/Gd2.php
-# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "How to fix «file_put_contents(generated/metadata/primary|global|plugin-list.php):
 # failed to open stream: No such file or directory
 # in lib\internal\Magento\Framework\Interception\PluginListGenerator.php on line 414» in Magento 2.4-develop in Windows?"
 # https://mage2.pro/t/6178
 # 2) "Adapt the website to Windows": https://github.com/27estore/site/issues/2
 !/vendor/magento/framework/Interception/PluginListGenerator.php
-# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "How to fix the «Invalid template file» / «require_js.phtml» failure for Magento ≥ 2.4.5 in Windows?"
 # https://mage2.pro/t/6339
 # 2) "Adapt the website to Windows": https://github.com/27estore/site/issues/2
 !/vendor/magento/framework/View/Element/Template/File/Validator.php
-# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1.1) "How to adapt `Magento\Catalog\Model\View\Asset\Image::getUrl()` to Windows in Magento ≥ 2.4.2?":
 # https://mage2.pro/t/6411
 # 1.2) "How to adapt `Magento\Catalog\Model\View\Asset\Image::getImageInfo()` to Windows in Magento ≥ 2.3.0?":
 # https://mage2.pro/t/6412
 # 2) "Adapt the website to Windows": https://github.com/27estore/site/issues/2
 !/vendor/magento/module-catalog/Model/View/Asset/Image.php
-# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "«Environment emulation nesting is not allowed» on sending invoice / shipment / creditmemo emails":
 # https://github.com/27estore/site/issues/3
 # 2) "How did I fix «Environment emulation nesting is not allowed»
@@ -61,7 +61,7 @@
 !/vendor/magento/module-sales/Model/Order/Email/Sender/CreditmemoSender.php
 !/vendor/magento/module-sales/Model/Order/Email/Sender/InvoiceSender.php
 !/vendor/magento/module-sales/Model/Order/Email/Sender/ShipmentSender.php
-# 2023-07-22 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2023-07-22 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # Today I noticed that `git add . && git commit -a -m refactoring && git push`
 # started to commit subfolders which are git repositories (for an unknown reason).
 # 2025-04-03 https://gemini.google.com/u/1/app/de95853eeeb45648

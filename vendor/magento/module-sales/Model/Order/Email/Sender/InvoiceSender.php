@@ -126,7 +126,7 @@ class InvoiceSender extends Sender
                 $order->setBaseTaxAmount((float) $invoice->getBaseTaxAmount());
                 $order->setBaseShippingAmount((float) $invoice->getBaseShippingAmount());
             }
-			# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+			# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 			# 1) "«Environment emulation nesting is not allowed» on sending invoice / shipment / creditmemo emails":
 			# https://github.com/27estore/site/issues/3
 			# 2) "How did I fix «Environment emulation nesting is not allowed»
@@ -142,7 +142,7 @@ class InvoiceSender extends Sender
                 'invoice_id' => $invoice->getId(),
                 'comment' => $invoice->getCustomerNoteNotify() ? $invoice->getCustomerNote() : '',
                 'billing' => $order->getBillingAddress(),
-				# 2024-07-19 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+				# 2024-07-19 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 				# 1) "«Environment emulation nesting is not allowed» on sending invoice / shipment / creditmemo emails":
 				# https://github.com/27estore/site/issues/3
 				# 2) "How did I fix «Environment emulation nesting is not allowed»
